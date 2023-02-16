@@ -13,4 +13,14 @@ public abstract class Direction {
 
     public Direction() {
     }
+
+    @Override
+    public String toString() {
+        return "Direction{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gender=" + gender +
+                ", email='" + email + '\'' +
+                '}';
+    }
 }
